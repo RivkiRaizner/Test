@@ -1,0 +1,18 @@
+Refresh Token are typically longer lived than Access Tokens and used to
+request a new Access Token without forcing user authentication.
+Unlike Access Tokens, Refresh Tokens are only used with the Authorization Server
+and are never sent to a web service.
+
+Access tokens are credentials used to access protected resources.
+Access tokens are used as bearer tokens. 
+A bearer token means that the bearer can access authorized resources without further identification.
+
+This token is a long-lived token compared to the access token and is used to request a new access token
+in cases where it is expired.
+It can be considered as credentials used to obtain access tokens.
+
+
+Refresh tokens carry the information necessary to get a new access token.
+Access tokens carry the necessary information to access a resource directly.
+
+

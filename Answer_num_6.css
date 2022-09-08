@@ -1,0 +1,17 @@
+/* a */
+/*style for the 5th element inside container*/
+.container :nth-child(5){
+
+}
+
+/* b */
+/*style for element that has a class .mango and element type is li */
+li.mango{
+
+}
+
+/* c */
+/*style for every element whose type attribute is green*/
+[type="green"]{
+
+}
